@@ -1,14 +1,14 @@
 $(document).ready(function() {
-  $("formOne").submit(function(event) {
+  $("#formOne").submit(function(event) {
     var recipNameInput =$("input#recipName").val();
     var yourNameInput =$("input#yourName").val();
-    var addressInput =$("input#addressName").val();
-    $(".recipName").text("bop!");
-    $(".yourName").text("bop!");
-    $(".address").text("bop!");
+    var addressInput =$("input#address").val();
 
-    $("#postcard").toggle();
+    $(".recipName").text(recipNameInput);
+    $(".yourName").text(yourNameInput);
+    $(".address").text(addressInput);
 
+    $("#postcard").show();
     event.preventDefault();
   });
 });
