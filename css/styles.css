@@ -1,0 +1,22 @@
+h1, h3 {
+  text-align: center;
+}
+
+#postLogo {
+  align-items: right;
+  padding-top: 25px;
+}
+
+#stamp {
+  float: right;
+  width: 200px;
+  height: auto;
+}
+
+#address {
+  border-right: 1px solid #050505;
+}
+
+#postcard {
+  display: none;
+}
